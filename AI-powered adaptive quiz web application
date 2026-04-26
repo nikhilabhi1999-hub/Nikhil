@@ -1,0 +1,6 @@
+if (correct) {
+  difficulty += 1;
+} else {
+  difficulty -= 1;
+}
+difficulty = Math.max(1, Math.min(difficulty, 5));
